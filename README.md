@@ -2,7 +2,11 @@
 
 Рилс · Таргет · Запуск. Лендинг: кейстер, қызметтер, WhatsApp өтінім формасы.
 
-## Жергілікті іске қосу
+## Сайт
+
+https://lagerreg11.github.io/baglan-site/ (GitHub Pages: түбірдегі `index.html` + `img/`)
+
+## Жергілікті іске қосу (Flask нұсқасы)
 
 ```bash
 pip install -r requirements.txt
@@ -38,4 +42,4 @@ cd ~/baglan-site && git pull
 Содан кейін Web бетінде **Reload**.
 
 ## WhatsApp нөмірі
-`templates/index.html` соңындағы `var WA_NUMBER = "77474030693";`
+`index.html` және `templates/index.html` соңындағы `var WA_NUMBER = "77474030693";`
